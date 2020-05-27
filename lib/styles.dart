@@ -34,3 +34,17 @@ TextStyle buttonTextUnderline = TextStyle(
 
 TextStyle subtitle =
 TextStyle(color: Colors.white, fontWeight: FontWeight.normal, fontSize: 25);
+
+LinearGradient MainGradient = LinearGradient(
+    begin: Alignment.topCenter,
+    end: Alignment.bottomCenter,
+    stops: [
+      0.0,
+      0.75,
+      1
+    ],
+    colors: [
+      const Color(0xFF000000),
+      const Color(0xFF194D65),
+      const Color(0xFFDD9191)
+    ]);
